@@ -51,14 +51,3 @@
     
 // }
 // arrayFunction()
-var i:number = 1
-function Factorial(num1:number) {
-    if (num1>0)
-     {console.log("Number is Positive")
-    //  i= num1
-    while(num1>)
-     var result = num1*(num1-i)  
-
-    }
-    
-}
