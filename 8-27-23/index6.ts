@@ -2,9 +2,9 @@
 // create a new array containing the doubled values of odd numbers.
 
 let Array2:number []= [3,6,9,12,15,18]
-let newArray= Array2.filter((value)=>{   
-    return value%2!=0
-}).map((value)=>{
-    return (value*2)
+let newArr2:number[] = Array2.filter((v)=>{
+    return v%2!=0
+}).map((v)=>{
+    return v*2
 })
-console.log(newArray)
+console.log(newArr2);
