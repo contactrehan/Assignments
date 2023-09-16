@@ -1,5 +1,4 @@
-// Write a program that uses a function to find the largest element in an array of numbers.
-
+// Write a program that uses a function to find the largest element in an array of number
 function largestArrElement(numArr:number[])
 {
   let k:number = 0
