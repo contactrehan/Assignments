@@ -4,3 +4,14 @@ Sandwiches: Write a function that accepts a array of items a person wants on a s
 */
 console.log(`Sandwiches:`);
 console.log("\n");
+function createSandwich(items) {
+    console.log(`The Items on the Sandwich are:`);
+    for (let i = 0; i < items.length; i++) {
+        console.log(items[i]);
+    }
+}
+createSandwich(["bread", "cheese"]);
+console.log("\n");
+createSandwich(["tomato", "cheese"]);
+console.log("\n");
+createSandwich(["onion", "chicken"]);
